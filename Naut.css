@@ -32,3 +32,37 @@
 						Add addons & your own customizations below here!
 										/////
 ==================================================================================================================================*/
+
+/* --- Addon: Header Color (Primary Color) --- */
+body:before {background-color: #ADD8E6}
+/* --- End Addon --- */
+
+
+/* --- Addon: Button color (Secondary Color) --- */
+.morelink, .titlebox .fancy-toggle-button .add, .morelink:after, .content .infobar,
+.submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar, 
+.submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, .linkflairlabel, .fancy-toggle-button .remove:active
+.expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a,
+.res div.RES-keyNav-activeElement, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed, .btn, button {background-color: #ef4949}
+
+    /* Hover color = 10% white overlay color */
+    .morelink:hover, .submit-page #newlink.submit.content .tabmenu.formtab .selected a:hover, .btn:hover, button:hover,
+    .side .titlebox .md h3 a:hover, .titlebox .fancy-toggle-button .add:hover, .titlebox .fancy-toggle-button .add:hover:after
+     {background-color: #f85d5d;}
+
+    /* Active color = 10% black overlay color */
+    .morelink:active, .side .titlebox .md h3 a:active, .btn:active, button:active {background-color: #bd3b3b;}
+
+/* --- End Addon --- */
+
+
+/* --- Addon: Link Color (Tertiary Color) - This color should be either similiar to the primary color, 
+or to the secondary color. Else the page will become too busy.-- */
+a, .link .entry .buttons li a.comments, .md a, .titlebox .tagline a.flairselectbtn, 
+.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title, 
+body .content .sitetable .link .title a:hover, .link .domain a:hover, .link .entry .buttons li a:hover, 
+.link .entry .buttons li a.flairselectbtn, .comment .flat-list li a[onclick*="reply"], 
+.comment .flat-list li a:hover, .tagline .submitter, .tagline .submitter, .side:after, 
+.usertext .bottom-area a.reddiquette, .side .titlebox .md h6 a, .link .entry .tagline a:hover, .comment .author:hover
+ {color: #ef4949;}
+/* --- End Addon --- */
